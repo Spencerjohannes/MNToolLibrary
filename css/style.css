@@ -4,6 +4,23 @@ font-family: "EB Garamond", serif;
 Text fonts
 font-family: "Montserrat", sans-serif; */
 
-.bg-image{
+.bg-image {
     background-color: aquamarine;
+}
+
+
+/* Button CSS Code*/
+.ArrowIcon {
+    height: 2rem;
+}
+
+.btn-warning{
+background-color:#BF6C38 !important;
+border-radius: 0;
+}
+
+.LearnMore {
+    font-size: 1rem !important;
+    font-weight:600;
+    color: aliceblue;
 }
