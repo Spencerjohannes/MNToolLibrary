@@ -15,8 +15,6 @@ font-family: "Montserrat", sans-serif; */
 .btn{
 background-color:#BF6C38 !important;
 border-radius: 0;
-padding-right: 35%;
-padding-left: 35%;
 }
 
 .btnNav{
@@ -44,3 +42,4 @@ h4{
     font-size: 1rem;
 }
 */
+
