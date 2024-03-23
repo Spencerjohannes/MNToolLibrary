@@ -4,13 +4,9 @@ font-family: "EB Garamond", serif;
 Text fonts
 font-family: "Montserrat", sans-serif; */
 
-.bg-image {
-    background-color: aquamarine;
-}
-
 
 /* Button CSS Code*/
-.ArrowIcon {
+.icon {
     height: 2rem;
 }
 
@@ -19,8 +15,17 @@ background-color:#BF6C38 !important;
 border-radius: 0;
 }
 
-.LearnMore {
+.LearnMore .signUp{
     font-size: 1rem !important;
     font-weight:600;
-    color: aliceblue;
 }
+
+/* these are place holder test
+h1{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+*/
