@@ -10,9 +10,24 @@ font-family: "Montserrat", sans-serif; */
     height: 2rem;
 }
 
-.btn-warning{
+/* % on main button does not scale well
+*/
+.btn{
 background-color:#BF6C38 !important;
 border-radius: 0;
+padding-right: 35%;
+padding-left: 35%;
+}
+
+.btnNav{
+    background-color:#BF6C38 !important;
+    border-radius: 0;
+    border: none;
+
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .LearnMore .signUp{
