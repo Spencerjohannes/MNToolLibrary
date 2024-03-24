@@ -4,42 +4,79 @@ font-family: "EB Garamond", serif;
 Text fonts
 font-family: "Montserrat", sans-serif; */
 
-
-/* Button CSS Code*/
+/* Icon code*/
 .icon {
     height: 2rem;
 }
 
-/* % on main button does not scale well
-*/
-.btn{
-background-color:#BF6C38 !important;
-border-radius: 0;
+/*Learn More Button with Arrow*/
+.btnLearnMore {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.btnNav{
-    background-color:#BF6C38 !important;
+.iconArrow {
+    padding-left: .5rem;
+    height: 1.5rem;
+
+}
+
+.btn {
+    background-color: #BF6C38 !important;
+    border-radius: 0;
+}
+
+.btnNav {
+    background-color: #BF6C38 !important;
     border-radius: 0;
     border: none;
-
 }
 
-.bold{
-    font-weight: bold;
+/*Sign Up & Calendar button*/
+.signUp {
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }
 
-.LearnMore .signUp{
-    font-size: 1rem !important;
-    font-weight:600;
+.btnSignUp {
+    padding: .5rem;
 }
 
-/* these are place holder test
-h1{
-    font-size: 3rem;
+.btnCalendar {
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #596654 !important;
 }
 
-h4{
-    font-size: 1rem;
+.calendarInfo {
+    padding-left: .5rem;
 }
-*/
 
+/*Social media Buttons*/
+.socialMediaButton {
+
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: #596654 !important;
+    border: none;
+}
+
+.socialIcon{
+    height: 2.8rem;
+}
