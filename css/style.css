@@ -4,9 +4,40 @@ font-family: "EB Garamond", serif;
 Text fonts
 font-family: "Montserrat", sans-serif; */
 
-/* Icon code*/
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #E0E0E0;
+}
+
+/* Icon code /Text / Span*/
 .icon {
     height: 2rem;
+}
+
+.card .rounded-start {
+    border-radius: 0 !important;
+    outline: 0 !important;
+    outline-color: 0 !important;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: 600;
+    padding:.2rem
 }
 
 /*Learn More Button with Arrow*/
@@ -19,6 +50,17 @@ font-family: "Montserrat", sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.btnLearnMore:hover {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D2895B !important;
+}
+
+
 .iconArrow {
     padding-left: .2rem;
     height: 2rem;
@@ -30,10 +72,19 @@ font-family: "Montserrat", sans-serif; */
     border-radius: 0;
 }
 
+
 .btnNav {
     background-color: #BF6C38 !important;
     border-radius: 0;
     border: none;
+}
+
+.btnNav:hover {
+    background-color: #D2895B !important;
+    border-radius: 0;
+    border: none;
+    text-decoration: none !important;
+    color: white !important;
 }
 
 /*Sign Up & Calendar button*/
@@ -60,13 +111,23 @@ font-family: "Montserrat", sans-serif; */
     background-color: #596654 !important;
 }
 
+.btnCalendar:hover {
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #7F9875 !important;
+}
+
+
 .calendarInfo {
     padding-left: .5rem;
 }
 
 /*Social media Buttons*/
 .socialMediaButton {
-
     color: white;
     font-size: 1.2rem !important;
     font-weight: 500;
@@ -77,6 +138,178 @@ font-family: "Montserrat", sans-serif; */
     border: none;
 }
 
-.socialIcon{
+.socialMediaButton:hover {
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: #7F9875 !important;
+    border: none;
+}
+
+.socialIcon {
     height: 2.8rem;
+}
+
+/*Social media Buttons*/
+
+body {
+    font-family: "EB Garamond", serif;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Icon code*/
+.icon {
+    height: 2rem;
+}
+
+
+/* Navigation*/
+.navbar-collapse {
+    margin-left: 18rem;
+}
+
+.profileIcon{
+    height: 2rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #BF6C38 !important;
+    /* Example color for background */
+    color: white;
+}
+
+.navbar {
+    background-color: #6F8FA0 !important;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.logo {
+    padding-right: 1rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    padding-right: 2rem !important;
+}
+
+
+/* heroScape*/
+.mainHeader {
+    padding: 1rem 5rem 3rem 0rem
+}
+
+#heroScape {
+    margin-bottom: 1.5rem;
+    padding: 0;
+}
+
+.heroScapeText {
+    color: white;
+    font-weight: 300;
+}
+
+.textBox {
+    background-color: rgba(59, 95, 122, 0.5);
+    padding: 1.5rem;
+}
+
+/* Membership and Card Involved*/
+#getInvolved {
+    margin-top: 50px !important;
+    /* Adds spacing between sections */
+}
+
+.memberShip {
+    padding-left: 1.5rem !important;
+    background-color: #FFF5F0 !important;
+    /* Background color */
+}
+
+.col-8 {
+    border-radius: 0 !important;
+}
+
+.card-title {
+
+    padding-bottom: .5rem;
+}
+
+.card-text {
+    padding-bottom: 2rem;
+}
+
+/*Header for MN Tool Library Branches */
+#mainheader {
+    text-align: center;
+    background-color: #3B5F7A;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*Library Branches Cards */
+.branchCard{
+    padding:0;
+    
+}
+
+
+.mainCardHeader{
+    background-color: #596654;
+    color: white;
+    Padding: 1rem;
+}
+
+.neToolLibrary {
+    border-bottom: 2px solid #6F8FA0; /* Blue border underneath "SPTL" */
+    display: inline-block; /* Ensures the border only spans the width of the text */
+}
+
+.contactInfo {
+    background-color: #535456; /* Darker background color */
+    color: white;
+    padding: .5rem;
+}
+
+.contact{
+    padding-left: .5rem;
+    font-size: 1.2rem;
+}
+
+.icon{
+    padding-left: 3rem;
+    height: 1.5rem;
+}
+
+/*Up Coming Events */
+#upComingEvents {
+    text-align: center;
+    background-color: #3B5F7A;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+/*Up Coming Events Cards*/
+
+#upComingEventCards .card {
+    background-color: #FFF5F0; 
+    margin-bottom: 2rem; 
+}
+
+/*Social Links and Calendar*/
+.calendarIcon{
+    height: 2rem;
 }
