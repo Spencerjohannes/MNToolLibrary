@@ -226,7 +226,7 @@ body {
 
 /* Membership and Card Involved*/
 #getInvolved {
-    margin-top: 50px !important;
+    margin-top: 3rem !important;
     /* Adds spacing between sections */
 }
 
@@ -234,10 +234,6 @@ body {
     padding-left: 1.5rem !important;
     background-color: #FFF5F0 !important;
     /* Background color */
-}
-
-.col-8 {
-    border-radius: 0 !important;
 }
 
 .card-title {
@@ -261,23 +257,22 @@ body {
 /*Library Branches Cards */
 .branchCard{
     padding:0;
-    
 }
-
 
 .mainCardHeader{
     background-color: #596654;
     color: white;
     Padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .neToolLibrary {
-    border-bottom: 2px solid #6F8FA0; /* Blue border underneath "SPTL" */
-    display: inline-block; /* Ensures the border only spans the width of the text */
+    border-bottom: 2px solid #6F8FA0; 
+    display: inline-block; 
 }
 
 .contactInfo {
-    background-color: #535456; /* Darker background color */
+    background-color: #535456; 
     color: white;
     padding: .5rem;
 }
@@ -311,5 +306,45 @@ body {
 
 /*Social Links and Calendar*/
 .calendarIcon{
-    height: 2rem;
+    height: 2.2rem;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    background-color: #C8C8C8;
+    padding:1rem
+}
+
+
+/*Classes & Workshops title*/
+.content{
+    padding-right: .5rem;
+}
+
+#classes {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #F7F4EF;
+    border-radius: 5px;
+    padding:.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 10rem; 
+    margin-right: 1rem; 
+}
+
+.selectionArrows {
+    margin-left: 1rem;
+    height: 2rem; /* Add space between search form and image */
 }
