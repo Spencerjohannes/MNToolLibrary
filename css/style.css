@@ -417,8 +417,7 @@ body {
     padding: 0;
 }
 
-.hourList, .addressListInfo{
-    /*Classes & Workshops cardscolor:black;*/
+.addressListInfo{
     font-size: 1.2rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
