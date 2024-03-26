@@ -195,6 +195,11 @@ body {
     color: white;
     font-weight: 500;
     font-size: 1.5rem;
+    display: flex;
+}
+
+.mTLibrary {
+    padding-top: 1.5rem;
 }
 
 .nav-link {
@@ -450,9 +455,19 @@ body {
         margin-left: 0;
     }
 
+    .mTLibrary {
+        display: none
+    }
+
     /* Main Header */
     .mainHeader {
-        padding: 1rem 1rem 3rem 1rem;
+        padding: 0rem 1rem 3rem 0rem;
+    }
+
+    /* Main Header */
+    .btnLearnMore {
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
     /* Membership and Get Involved Cards */
@@ -516,13 +531,13 @@ body {
     .branchCard {
         margin-bottom: 20px;
     }
-    
+
     .addressList,
     .HoursList {
         list-style: none;
         padding: 0;
     }
-    
+
     .addressList li,
     .HoursList li {
         margin-bottom: 5px;
