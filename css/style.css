@@ -14,7 +14,7 @@ body {
     height: 2rem;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -376,7 +376,8 @@ body {
     background-color: #6F8FA0;
     border: 0;
     color: white;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .footerContactInfo {
@@ -407,7 +408,7 @@ body {
 
 .emailIcon {
     height: 2rem;
-    
+
 
 }
 
@@ -417,21 +418,22 @@ body {
     padding: 0;
 }
 
-.addressListInfo{
+.addressListInfo {
     font-size: 1.2rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.footerBranchesInfo{
+.footerBranchesInfo {
     padding-top: .5rem;
 }
 
-.footerContact{
+.footerContact {
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-.phoneEmail{
+
+.phoneEmail {
     padding-bottom: .5rem;
 }
 
@@ -440,3 +442,71 @@ body {
     height: 15rem;
 }
 
+/* Mobile Responsive */
+@media only screen and (max-width: 767px) {
+
+    /* Navbar */
+    .navbar-collapse {
+        margin-left: 0;
+    }
+
+    /* Main Header */
+    .mainHeader {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
+    /* Membership and Get Involved Cards */
+    .memberCard {
+        margin-bottom: 2rem;
+    }
+
+    /* Tool Library Branches */
+    .branchCard {
+        margin-bottom: 2rem;
+    }
+
+    /* Upcoming Events */
+    #upComingEvents {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Social Links and Calendar */
+    .socialContainer {
+        padding: 1rem 0;
+    }
+
+    /* Classes & Workshops Title */
+    #classes {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Classes & Workshops Selector */
+    .search-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .selectionArrows {
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Classes & Workshops Cards */
+    .workshops {
+        margin-bottom: 2rem;
+    }
+
+    /* Footer */
+    .footerLogo {
+        margin-top: 2rem;
+        height: auto;
+    }
+}
