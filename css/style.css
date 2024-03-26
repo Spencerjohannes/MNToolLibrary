@@ -472,9 +472,10 @@ body {
     }
 
     /* Social Links and Calendar */
-    .socialContainer {
-        padding: 1rem 0;
+    .content {
+        display: flex;
     }
+
 
     /* Classes & Workshops Title */
     #classes {
@@ -508,5 +509,22 @@ body {
     .footerLogo {
         margin-top: 2rem;
         height: auto;
+    }
+
+
+
+    .branchCard {
+        margin-bottom: 20px;
+    }
+    
+    .addressList,
+    .HoursList {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .addressList li,
+    .HoursList li {
+        margin-bottom: 5px;
     }
 }
