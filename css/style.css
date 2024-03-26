@@ -366,6 +366,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.workshop {
+    border-radius: 1rem;
+}
+
 .search-form {
     display: flex;
     align-items: center;
@@ -524,8 +528,8 @@ body {
     }
 
 
-    .img-fluid{
-        max-height:469px ;
+    .img-fluid {
+        max-height: 469px;
     }
 
 
@@ -601,8 +605,5 @@ body {
         padding-bottom: .5rem;
 
     }
-
-
-
 
 }
