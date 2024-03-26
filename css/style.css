@@ -150,7 +150,7 @@ h4 {
 }
 
 .socialIcon {
-    height: 2.8rem;
+    height: 3rem;
 }
 
 /*Social media Buttons*/
@@ -210,8 +210,16 @@ body {
 
 
 /* heroScape*/
+
+.bg-image {
+    background-size: cover;
+    /* Scale the background image to cover the entire container */
+    background-position: center;
+    /* Center the background image */
+}
+
 .mainHeader {
-    padding: 1rem 5rem 3rem 0rem
+    padding: 1rem 8rem 4rem 0rem
 }
 
 #heroScape {
@@ -260,6 +268,7 @@ body {
 }
 
 /*Library Branches Cards */
+
 .branchCard {
     padding: 0;
 }
@@ -282,9 +291,17 @@ body {
     padding: .5rem;
 }
 
+/* testing to see
 .contact {
     padding-left: .5rem;
     font-size: 1.2rem;
+}
+*/
+
+.contact {
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: .5rem;
 }
 
 .icon {
@@ -393,7 +410,7 @@ body {
 }
 
 .footeriIcon {
-    height: 2rem;
+    height: 1.8rem;
 }
 
 
@@ -408,13 +425,11 @@ body {
 }
 
 .phoneIcon {
-    height: 2.5rem;
+    height: 1.6rem;
 }
 
 .emailIcon {
-    height: 2rem;
-
-
+    height: 1.8rem;
 }
 
 .addressList,
@@ -435,6 +450,7 @@ body {
 
 .footerContact {
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: .2rem;
 
 }
 
@@ -464,11 +480,25 @@ body {
         padding: 0rem 1rem 3rem 0rem;
     }
 
-    /* Main Header */
+    /* Buttons */
     .btnLearnMore {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 25%;
+        padding-right: 25%;
     }
+
+    .btnLearnMore:hover {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .calendarInfo {
+        font-size: 1rem;
+    }
+
+    .btnCalendar {
+        padding: .5rem;
+    }
+
 
     /* Membership and Get Involved Cards */
     .memberCard {
@@ -479,6 +509,25 @@ body {
     .branchCard {
         margin-bottom: 2rem;
     }
+
+    .contactInfo {
+        justify-content: center;
+    }
+
+    .contact {
+        padding-right: .5rem;
+        padding-bottom: .3rem;
+    }
+
+    .icon {
+        padding: 0;
+    }
+
+
+    .img-fluid{
+        max-height:469px ;
+    }
+
 
     /* Upcoming Events */
     #upComingEvents {
@@ -524,9 +573,9 @@ body {
     .footerLogo {
         margin-top: 2rem;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
-
-
 
     .branchCard {
         margin-bottom: 20px;
@@ -542,4 +591,18 @@ body {
     .HoursList li {
         margin-bottom: 5px;
     }
+
+    .branchInfo {
+        padding: .5rem 1rem .5rem 1rem;
+    }
+
+    .content {
+        text-align: center;
+        padding-bottom: .5rem;
+
+    }
+
+
+
+
 }
