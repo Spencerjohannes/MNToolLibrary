@@ -29,7 +29,7 @@ h1 {
     font-size: 3rem;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     font-weight: 600;
 
@@ -205,19 +205,25 @@ body {
     text-decoration: none;
 }
 
-.mTLibrary {
+.mtLibrary {
     padding-top: 1.5rem;
 }
 
-.mTLibrary:hover {
+.mtLibrary:hover {
     padding-top: 1.5rem;
-    text-decoration: white;
+    color: #535456;
 }
+
 
 .nav-link {
     color: white !important;
     font-size: 1.2rem;
     padding-right: 2rem !important;
+}
+
+.nav-link:hover {
+    background-color: #3B5F7A !important;
+    border-radius: 5px;
 }
 
 
